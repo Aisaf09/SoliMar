@@ -97,6 +97,10 @@
     font-size: 22px;
     letter-spacing: 4px;
     color: var(--cream);
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
   }
   .brand-text small{
     display:block;
@@ -105,8 +109,8 @@
     letter-spacing: 3px;
     color: var(--gold);
     text-transform: uppercase;
-    margin-top: 2px;
     font-weight: 400;
+    line-height: 1;
   }
   .nav-center{
     display:flex; gap: 40px;
@@ -975,7 +979,7 @@
     margin-bottom: 24px;
   }
   .footer-brand .brand-mark{width:48px; height:48px; font-size:20px}
-  .footer-brand .brand-text{font-size:24px}
+  .footer-brand .brand-text{font-size:24px; gap: 6px}
   .footer-brand .brand-text small{font-size:10px}
   .footer-col p{
     font-family: var(--serif);
@@ -1224,7 +1228,7 @@
 
       <article class="dish reveal reveal-delay-1">
         <div class="dish-img">
-          <img src="paella.jpg" alt="Paella Solimar" loading="lazy"/>
+          <img src="https://images.unsplash.com/photo-1695673478293-cb61a58fcc1d?w=800&q=80" alt="Paella Solimar" loading="lazy"/>
           <span class="dish-num">02</span>
           <div class="dish-info">
             <h3 data-i18n="dish.2.title">Paella Solimar</h3>
